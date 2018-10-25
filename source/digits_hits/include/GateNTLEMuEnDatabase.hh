@@ -573,7 +573,7 @@ static const std::vector<double> MuEn_Blood_Adult_ICRU46_tableau = {
 
 
 //-----------------------------------------------------------------------------
-static const std::vector<double> MuEn_GI_track_intestine_Adult_ICRU46_tableau = {
+static const std::vector<double> MuEn_GI_tract_intestine_Adult_ICRU46_tableau = {
 4.68E-01,
 1.30E-01,
 5.24E-02,

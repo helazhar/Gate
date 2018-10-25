@@ -156,10 +156,11 @@ void GateKermaFactorHandler::SetMaterial(const G4Material* eMaterial)
     kfTable   = kerma_factor_Skeleton_spongiosa_Adult_ICRU46_tableau;
     MuEnTable = MuEn_Skeleton_spongiosa_Adult_ICRU46_tableau;
   }
-  else if (name == "GI_track_intestine_Adult_ICRU46")
+  else if (name == "GI_tract_intestine_Adult_ICRU46" ||
+           name == "GI_track_intestine_Adult_ICRU46")
   {
-    kfTable   = kerma_factor_GI_track_intestine_Adult_ICRU46_tableau;
-    MuEnTable = MuEn_GI_track_intestine_Adult_ICRU46_tableau;
+    kfTable   = kerma_factor_GI_tract_intestine_Adult_ICRU46_tableau;
+    MuEnTable = MuEn_GI_tract_intestine_Adult_ICRU46_tableau;
   }
   else if (name == "Air_ICRU" ||
            name == "G4_AIR"   ||

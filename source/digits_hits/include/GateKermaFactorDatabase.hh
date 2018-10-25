@@ -1418,7 +1418,7 @@ static const std::vector<double> kerma_factor_Blood_Adult_ICRU46_tableau = {
 
 
 //-----------------------------------------------------------------------------
-static const std::vector<double> kerma_factor_GI_track_intestine_Adult_ICRU46_tableau = {
+static const std::vector<double> kerma_factor_GI_tract_intestine_Adult_ICRU46_tableau = {
 1.79E-17,
 1.51E-17,
 1.14E-17,
